@@ -49,9 +49,13 @@ export default AlbumsPage;
 
 */
 
-"use server";
-
 import { cacheLife } from "next/cache";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Albums | NextJS Demo",
+  description: "It's the albums page",
+};
 
 // Shape of an Album
 interface Album {
