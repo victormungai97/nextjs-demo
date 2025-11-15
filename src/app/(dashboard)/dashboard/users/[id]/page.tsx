@@ -22,6 +22,7 @@ export const generateMetadata = async ({
       type: "profile",
       title: `User ${id} | NextJS Demo`,
       description: "This page shows an individual user's details",
+      locale: "en_KE",
     },
     twitter: {
       title: `User ${id} | NextJS Demo`,
